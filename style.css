@@ -624,7 +624,7 @@
      }
    
      .lespluspopulaires{
-       width: 92%;
+       width: 100%;
        order: 2;
        margin-top: 50px;
        margin-right: 0px;
@@ -637,6 +637,7 @@
        flex-direction: row;
        justify-content: space-between;
        align-items: center;
+       padding-right: 25px;
      }
      
      .box-populaires{
@@ -707,7 +708,7 @@
      
        footer{
          gap: 100px;
-         margin-right: 55px;
+         margin-right: 5px;
        }
        
        .box-footer {
@@ -738,8 +739,7 @@
    
    
    
-   
-   @media screen and (max-width: 767px) {
+   @media screen and (max-width: 768px) {
    
      header {
       display: flex;
@@ -837,6 +837,10 @@
        margin-bottom: 35px;
    }
    
+   .rechercheherbergements {
+    margin-left: 15px;
+   }
+   
    .rechercheherbergements p {
      margin-bottom: 15px;
    }
@@ -883,6 +887,7 @@
      flex-wrap: wrap;
      flex-direction: column;
      width: 540px;
+     margin-left: 0px;
    }
    
    #filtres h2 {
@@ -920,15 +925,9 @@
      font-size: 22px;
    } 
    
-   .resultatsherbergements{
-      width: 100%;
-      background-color: #ffffff;
-      order: 2;
-      margin-left: 0px;
-      margin-right: 0px;
-      align-content: left;
-      align-items: left;
-    }
+ main {
+  margin-left: 0px;
+ }
    
    .resultatsrecherche{
      display: flex;
@@ -936,11 +935,19 @@
      margin-left: 0px;
     }
     
-   
+     .resultatsherbergements{
+      width: 100%;
+      background-color: #ffffff;
+      order: 2;
+      margin-left: 0px;
+      margin-right: 0px;
+      align-content: center;
+      align-items: center;
+    }
    
     .resultatsherbergements h1{
       margin-bottom: 20px;
-   
+      padding-right: 70px;
     }
    
     .hebergement img {
@@ -995,14 +1002,15 @@
      margin-right: 0px;
      border-radius: 0px;
      order: 1;
+     
    }
    
    .titre-populaires-icone{
      display: flex;
      flex-direction: row;
      align-content: center;
-     justify-content: space-between;
-     margin-right: 50px;
+     justify-content: center;
+     
    }
    
    .box-populaires{
@@ -1045,7 +1053,8 @@
    
    .activites h1{
      margin-bottom: 15px;
-     width: 150px;
+     padding-right: 120px;
+    
    }
    
    .suggestions-activites {
