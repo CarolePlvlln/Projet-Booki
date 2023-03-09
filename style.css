@@ -503,16 +503,16 @@
        }
      
        h1 {
-         font-family: 22px;
+         font-family: 20px;
        }
      
        h2 {
-         font-family: 20px;
+         font-family: 18px;
      
        }
      
        h3 {
-         font-family: 18px;
+         font-family: 17px;
        }
    
        .barre-recherche{
@@ -659,7 +659,7 @@
        }
      
      .nom-hotel-prix {
-       margin-left: 15px;
+       margin-left: 10px;
      }
    
      .nom-hotel-prix h3{
