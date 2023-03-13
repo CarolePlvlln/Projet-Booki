@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    max: width 1400px;
     box-sizing: border-box;
      }
    
@@ -38,19 +39,19 @@
        letter-spacing: 0em;
        text-align: right;
        display: inline;
-         list-style: none;
+       list-style: none;
        margin: 25px;
        max-width: 1400px;
        box-sizing: border-box;
-       margin: 0;
+       margin-right: 35px;
        padding: 0;
     }
      
      nav a {
        display:inline-block;
        margin: 25px;
-     color: #000000;
-     text-decoration: none;
+       color: #000000;
+       text-decoration: none;
      }
    
      
@@ -268,7 +269,9 @@
        box-sizing: content-box;
        padding: 6px;
        box-shadow: 0px 4px 7px rgb(212, 211, 211);
-       
+     }
+     .hebergement a {
+      text-decoration: none;
      }
    
    
@@ -339,6 +342,10 @@
        border-bottom-left-radius: 10px;
        border-top-left-radius : 10px;
      }
+
+     .populaires a {
+      text-decoration: none;
+     }
    
      .nom-hotel-prix {
        display: flex;
@@ -399,6 +406,10 @@
      .activites-marseille h3 {
        margin-top: 12px;
        margin-left: 15px;
+       
+     }
+     .activites-marseille a {
+      text-decoration: none;
      }
    
      footer{
@@ -588,8 +599,6 @@
      .hebergement img {
        width: 240px;
        height: 110px;
-       border-top-right-radius: 10px;
-       border-top-left-radius : 10px;
        object-fit: cover;
      }
    
@@ -603,13 +612,8 @@
      .hebergement{
        width: 240px;
        height: 200px;
-       background-color: white;
-       border-radius: 15px;
-       align-items: center;
-       align-content: center;
-       box-sizing: content-box;
        padding: 6px;
-       box-shadow: 0px 4px 7px rgb(212, 211, 211);
+    
      }
    
      .hebergement p,h3{
@@ -676,8 +680,6 @@
    
      .activites {
        width: 100%;
-       display: flex;
-       flex-direction: column;
        margin-top: 50px;
        margin-bottom: 50px;
      }
@@ -914,14 +916,12 @@
    
    
    #filtres i{
-     color: #0065FC;
      font-size: 18px;
      padding-right: 8px;
      padding-left: 8px;
    }
    
    #icone i {
-     color: #000000;
      font-size: 22px;
    } 
    
@@ -968,46 +968,41 @@
    
     .hebergement{
       width: 335px;
-      height: 190px;
-      background-color: white;  
+      height: 190px; 
     }
    
     .hebergement h3 {
-     font-size: 16px;
+      font-size: 16px;
       margin-top: 0px;
-      margin-left: 10px;
+     margin-left: 10px;
     }
    
     .hebergement p {
-     font-size: 14px;
-     margin-top: 5px;
-     margin-left: 10px;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-left: 10px;
     }
    
     .stars{
-     margin-top: 5px;
-     margin-left: 10px;
+      margin-top: 5px;
+      margin-left: 10px;
     }
    
     .texte-hebergement{
-    margin-left: 15px;
+      margin-left: 15px;
     }
    
     .afficher-plus {
-     visibility: hidden;
+      visibility: hidden;
    }
    
    .lespluspopulaires{
      width: 100%;
-     margin-right: 0px;
-     border-radius: 0px;
      order: 1;
      
    }
    
    .titre-populaires-icone{
-     display: flex;
-     flex-direction: row;
      align-content: center;
      justify-content: center;
      
@@ -1044,8 +1039,6 @@
    }
    
    .activites {
-     display: flex;
-     flex-direction: column;
      align-items: center;
      margin-top: 50px;
      margin-bottom: 50px;
@@ -1071,7 +1064,9 @@
      width: 335px;
      height: 185px;
      border-radius: 15px;
+
    }
+  
    
    .suggestions-activites img {
      width: 335px;
