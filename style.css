@@ -102,6 +102,8 @@
        font-family:'raleway', sans-serif;
        font-weight: 700;
        font-size: 18px;
+       display: flex;
+       align-items: center;
      }
    
      h3 {
@@ -172,7 +174,7 @@
    
      #filtres {
        display: flex;
-       align-items: center;
+      
        justify-content: space-between;
        justify-content: flex-start;
        flex-direction: row;
@@ -191,10 +193,14 @@
        border-color: #D9D9D9;
        background-color: #ffffff;
        border-radius: 50px;
-       margin: 25px;
+
        padding: 16px;
      }
-   
+    .buttons {
+      display: flex;
+     
+      gap: 20px;
+    }
    
      .button-value:hover{
        background-color: #DEEBFF;
@@ -328,6 +334,7 @@
 
      .box-populaires a {
       text-decoration: none;
+      width: 100%;
      }
    
      .populaires {
@@ -343,7 +350,7 @@
      }
    
      .populaires img{
-       width: 85%;
+       width: 40%;
        height: 125px;
        border-bottom-left-radius: 10px;
        border-top-left-radius : 10px;
@@ -893,29 +900,26 @@
      display: flex;
      flex-wrap: wrap;
      flex-direction: column;
-     width: 540px;
-     
+    
    }
    
    #filtres h2 {
      margin-left: 0px;
-     margin-right: 400px;
+    
    }
    
    .buttons{
      display: flex;
      flex-wrap: wrap;
-     width: auto;
+     width: 100%;
+     justify-content: space-around;
    }
    
    .button-value {
      font-size: 12px;
      display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-     width: 190px;
+     width: 40%;
      height: 50px;
-     display: left;
      margin: 10px;
    }
    
